@@ -1,7 +1,7 @@
 {
 	"name": "app",
 	"version": "1.0.0",
-	"homepage": "https://mohamedmostafakhudari.github.io/{add repo name here}}",
+	"homepage": "https://mohamedmostafakhudari.github.io/Weather_App",
 	"description": "",
 	"main": "index.js",
 	"scripts": {

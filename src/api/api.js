@@ -1,7 +1,7 @@
 const API_KEY = "b8d32c6ca46998203b9e0f307c0c746d";
 
 const currentWeatherEndpoint = "https://api.openweathermap.org/data/2.5/weather";
-const geocodingEndpoint = "http://api.openweathermap.org/geo/1.0/direct";
+const geocodingEndpoint = "https://api.openweathermap.org/geo/1.0/direct";
 
 export async function fetchCurrentWeather(cityName) {
 	try {
