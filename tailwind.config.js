@@ -3,11 +3,11 @@ module.exports = {
 	content: ["./src/**/*.{html,js,jsx}"],
 	theme: {
 		screens: {
-			sm: '480px',
-			md: '768px',
-			lg: '976px',
-			xl: '1440px',
-			"2xl": '1760px',
+			sm: "480px",
+			md: "768px",
+			lg: "976px",
+			xl: "1440px",
+			"2xl": "1760px",
 		},
 		container: {
 			center: true,
@@ -23,11 +23,11 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				'primary': '#ff49db',
+				primary: "rgb(13,12,18)",
 			},
 			fontFamily: {
-				'sans': ['Helvetica', 'Arial', 'sans-serif'],
-			}
+				sans: ["Helvetica", "Arial", "sans-serif"],
+			},
 		},
 	},
 	plugins: [
@@ -35,7 +35,7 @@ module.exports = {
 		require("@tailwindcss/typography"),
 		require("@tailwindcss/aspect-ratio"),
 		require("@tailwindcss/forms")({
-			strategy: 'class',
+			strategy: "class",
 		}),
 	],
 };
